@@ -1,0 +1,7 @@
+En el archivo rutas.php
+if(count(array_filter($array))==4){
+
+        if(array_filter($array)[4]=="cursos"){
+
+el numero es 4 debido a que la carpeta de la apirest no esta en el htdocs sino en dentro de varias 
+carpetas que estan en el htdocs por eso es 4 cuando deberia ser 2
